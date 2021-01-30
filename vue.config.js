@@ -1,5 +1,9 @@
 module.exports = {
-  publicPath: process.env.DEPLOY_ENV === 'GH_PAGES' ? '/bakery/' : '/',
+  publicPath:
+    process.env.DEPLOY_ENV === 'GH_PAGES' ||
+    process.env.NODE_ENV === 'production'
+      ? '/bakery/'
+      : '/',
   transpileDependencies: ['vuetify'],
   chainWebpack: config => {
     config.resolve.extensions
