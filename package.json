@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "generate:gh-pages": "DEPLOY_ENV=GH_PAGES build --fail-on-page-error"
   },
   "dependencies": {
     "axios": "^0.19.2",
