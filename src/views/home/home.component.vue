@@ -40,7 +40,7 @@
               </base-btn>
             </v-col>
             <v-col>
-              <img class="header-image" src="/assets/svgs/header.svg" />
+              <img class="header-image" src="assets/svgs/header.svg" />
             </v-col>
           </v-row>
         </v-container>

@@ -9,7 +9,7 @@
   >
     <div class="drawer-top py-5 text-center">
       <v-avatar size="70">
-        <v-img src="/assets/images/user.png" />
+        <v-img src="assets/images/user.png" />
       </v-avatar>
       <div />
       <v-badge color="success" dot offset-y="8" offset-x="-3">
