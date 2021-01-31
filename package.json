@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-prod": "set NODE_ENV=production && vue-cli-service build --mode production",
+    "build-prod": "set NODE_ENV=production && vue-cli-service build",
     "lint": "vue-cli-service lint",
     "generate:gh-pages": "DEPLOY_ENV=GH_PAGES npm run build-prod --fail-on-page-error"
   },

@@ -7,8 +7,6 @@ import { SdkConfig } from './sdk/sdk.config';
 import './components';
 import './plugins';
 
-SdkConfig.ApiPath = 'http://localhost/bakery-api';
-
 Vue.config.productionTip = false;
 
 new Vue({
