@@ -1,8 +1,5 @@
 export class SdkConfig {
-  private static ApiUrl =
-    process.env.NODE_ENV === 'production'
-      ? 'http://bakery-api.000webhostapp.com'
-      : 'http://localhost/bakery-api';
+  private static ApiUrl = 'http://bakery-api.000webhostapp.com';
 
   static get ApiPath() {
     return this.ApiUrl;
