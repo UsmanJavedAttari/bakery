@@ -1,5 +1,5 @@
 export class SdkConfig {
-  private static ApiUrl = 'https://bakery-api.000webhostapp.com';
+  private static ApiUrl = 'http://bakery.infinityfreeapp.com';
 
   static get ApiPath() {
     return this.ApiUrl;
